@@ -1,0 +1,43 @@
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Franco's POS.exe.config
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Franco's POS.exe
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Franco's POS.pdb
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Franco's POS.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Data.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Web.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Data.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\MySql.Web.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.exe.config
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.CategoryAdd.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.Login.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.MainForm.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.Resources.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.ProductCategory.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.vbproj.GenerateResource.Cache
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.vbproj.CoreCompileInputs.cache
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.exe
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.pdb
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco's POS.vbprojResolveAssemblyReference.cache
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.BrandAdd.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.ProductBrand.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.Products.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.AddProduct.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.POS_System.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.AllTransactions.resources
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.licensekey.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.pdfa.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.xfaworker.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.xtra.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\Jint.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\log4net.dll
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\bin\Debug\itextsharp.xml
+C:\Users\ADMIN_2\source\repos\Franco's POS\Franco's POS\obj\Debug\Franco_s_POS.Receipt.resources

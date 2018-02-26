@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B459A6F-00AD-4684-BC61-398FE1AD045B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Franco_s_POS.My.MyApplication</StartupObject>
+    <RootNamespace>Franco_s_POS</RootNamespace>
+    <AssemblyName>Franco%27s POS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Franco%27s POS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Franco%27s POS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\..\Downloads\itextsharp\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.licensekey">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.licensekey.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xfaworker">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.xfaworker.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\..\..\Downloads\itextsharp\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>..\..\..\..\Downloads\itextsharp\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\Downloads\itextsharp\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySQL.Data.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySQL.Data.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProduct.Designer.vb">
+      <DependentUpon>AddProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllTransactions.Designer.vb">
+      <DependentUpon>AllTransactions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllTransactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrandAdd.Designer.vb">
+      <DependentUpon>BrandAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BrandAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryAdd.Designer.vb">
+      <DependentUpon>CategoryAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbConnection.vb" />
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="POS System.Designer.vb">
+      <DependentUpon>POS System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS System.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductBrand.Designer.vb">
+      <DependentUpon>ProductBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductCategory.Designer.vb">
+      <DependentUpon>ProductCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.vb">
+      <DependentUpon>Products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt.Designer.vb">
+      <DependentUpon>Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllTransactions.resx">
+      <DependentUpon>AllTransactions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrandAdd.resx">
+      <DependentUpon>BrandAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryAdd.resx">
+      <DependentUpon>CategoryAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS System.resx">
+      <DependentUpon>POS System.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductBrand.resx">
+      <DependentUpon>ProductBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductCategory.resx">
+      <DependentUpon>ProductCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt.resx">
+      <DependentUpon>Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Delete_1493279.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_ic_cancel_48px_352263 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_ic_cancel_48px_352263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_In_2134667 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_In_2134667.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Login_in_85205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_pen_stroke_sketch_doodle_lineart_166_451465 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_pen_stroke_sketch_doodle_lineart_166_451465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_point-of-interest_216375.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_scales_of_Balance_172544.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-categorize-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discount-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discount-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discount-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-small-business-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_categories_465051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_file-roller_23794.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Cart_372897.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_list_296566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-go-back-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_basket_1814090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Streamline-70_185090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Streamline-70_185090 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Streamline-70_185090 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_update_172618.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_circle-add_226591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_circle-add_226591 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_plus_1814113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_plus_325963.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_plus_325963 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_add_134224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_basics-15_296819.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icon-111-search_314478.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Clear_2134648.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_price_tag_172526.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-categorize-filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture10.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
